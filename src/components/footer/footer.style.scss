@@ -1,0 +1,35 @@
+.footer {
+  height: 7rem;
+  background-color: var(--color-grey-dark-1);
+  font-size: 1.4rem;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  &__copy {
+    text-transform: uppercase;
+    color: var(--color-primary);
+  }
+
+  &__author {
+    color: #fad345;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+  }
+
+  &__link,
+  &__link:visited,
+  &__link:hover {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    flex-basis: 50%;
+  }
+
+  &__follow {
+    display: flex;
+    justify-content: space-between;
+  }
+}
